@@ -1,0 +1,12 @@
+<suite name="RegressionTestSuite">
+    <test name="RegressionTests">
+        <groups>
+            <run>
+                <include name="regression"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.sda.assignments.day2"></package>
+        </packages>
+    </test>
+</suite>

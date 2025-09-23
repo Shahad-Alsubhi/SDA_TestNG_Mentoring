@@ -1,0 +1,17 @@
+<suite name="APITestSuite">
+    <test name="APITests">
+        <groups>
+            <run>
+                <include name="api"></include>
+            </run>
+        </groups>
+       <classes>
+           <class name="com.sda.assignments.day2.T02_GroupBasedTestExecution">
+               <methods >
+                   <exclude name="test03">
+                   </exclude>
+               </methods>
+           </class>
+       </classes>
+    </test>
+</suite>

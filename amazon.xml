@@ -1,0 +1,15 @@
+<suite name="AmazonSearchSuite">
+    <test name="JavaSearch">
+        <parameter name="searchKeyword" value="java"></parameter>
+        <classes>
+            <class name="com.sda.assignments.day2.T01_AmazonSearchParameters"></class>
+        </classes>
+    </test>
+    <test name="SeleniumSearch">
+        <parameter name="searchKeyword" value="selenium"></parameter>
+        <classes>
+            <class name="com.sda.assignments.day2.T01_AmazonSearchParameters"></class>
+
+        </classes>
+    </test>
+</suite>

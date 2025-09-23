@@ -1,4 +1,4 @@
-package com.sda.assignments;
+package com.sda.assignments.day1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
