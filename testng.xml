@@ -2,19 +2,33 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="group tests">
-        <groups>
-            <run>
-                <include name="smoke"/>
-                <exclude name="regression"/>
-            </run>
-        </groups>
+          name="chrome">
+        <parameter name="browser" value="chrome"></parameter>
 
         <classes>
-            <class name="com.sda.mentoring.T02AttributePracticeTest_Henna">
+            <class name="com.sda.mentoring.T04CrossBrowserFormTesting">
 
             </class>
-            <class name="com.sda.mentoring.T02AttributePracticeTest_Youmna"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="firefox">
+        <parameter name="browser" value="firefox"></parameter>
+
+        <classes>
+            <class name="com.sda.mentoring.T04CrossBrowserFormTesting">
+
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="edge">
+        <parameter name="browser" value="edge"></parameter>
+
+        <classes>
+            <class name="com.sda.mentoring.T04CrossBrowserFormTesting">
+
+            </class>
         </classes>
     </test>
 </suite>
