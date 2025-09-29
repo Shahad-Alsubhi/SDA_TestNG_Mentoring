@@ -1,4 +1,4 @@
-package com.sda.assignments.day4;
+package com.sda.assignments.week4.day4;
 
 import com.sda.utilities.TestBase;
 import org.openqa.selenium.By;

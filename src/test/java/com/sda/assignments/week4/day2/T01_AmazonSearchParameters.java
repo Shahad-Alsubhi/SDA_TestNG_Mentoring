@@ -1,4 +1,4 @@
-package com.sda.assignments.day2;
+package com.sda.assignments.week4.day2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
